@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/students', (req, res) => {
-  res.json(students);  
+  return res.json(students);  
 });
 
 app.post('/students', (req, res) => {
